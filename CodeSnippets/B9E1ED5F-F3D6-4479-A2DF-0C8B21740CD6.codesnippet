@@ -36,7 +36,7 @@
 #pragma mark - UITableView Delegate methods
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>B9E1ED5F-F3D6-4479-A2DF-0C8B21740CD6</string>
