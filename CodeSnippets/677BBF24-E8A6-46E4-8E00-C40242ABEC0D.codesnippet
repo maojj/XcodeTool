@@ -10,8 +10,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak) &lt;#type#&gt; &lt;#name#&gt;;
-</string>
+	<string>@property (nonatomic, weak) &lt;#type#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>677BBF24-E8A6-46E4-8E00-C40242ABEC0D</string>
 	<key>IDECodeSnippetLanguage</key>
