@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - keyboard 
+- (void)keyboardWillShow:(NSNotification *)notification {
+    NSDictionary *info = [notification userInfo];
+    NSValue *aValue = [info objectForKey:UIKeyboardFrameEndUserInfoKey];
+    CGFloat duration = [[info objectForKey:UIKeyboardAnimationDurationUserInfoKey] floatValue];
+    CGSize keyboardSize = [aValue CGRectValue].size;
+    
+    CGRect viewFrame = CGRectMake(0, 0,  UI_SCREEN_WIDTH,  self.contentScrollView.contentSize.height - keyboardSize.height);
+    
+    [UIView animateWithDuration:duration animations:^{
+        self.contentScrollView.frame = viewFrame;
+    }];
+
+//    CGRect targetRect = [registerButton frame];
+//    [scrollView scrollRectToVisible:targetRect animated:YES];
+    
+}
+
+- (void)keyboardDidHide:(NSNotification *)notification {
+    NSDictionary *info = [notification userInfo];
+    CGFloat duration = [[info objectForKey:UIKeyboardAnimationDurationUserInfoKey] floatValue];
+    CGRect viewFrame = CGRectMake(0, 0,  UI_SCREEN_WIDTH,  self.contentScrollView.contentSize.height);
+
+    [UIView animateWithDuration:duration animations:^{
+        self.contentScrollView.frame = viewFrame;
+    }];
+
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>324A0F60-003D-41D1-92B7-2F8E2EDFBEE2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>keyboard show and hide</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
