@@ -27,7 +27,7 @@
     
 }
 
-- (void)keyboardDidHide:(NSNotification *)notification {
+- (void)keyboardWillHide:(NSNotification *)notification {
     NSDictionary *info = [notification userInfo];
     CGFloat duration = [[info objectForKey:UIKeyboardAnimationDurationUserInfoKey] floatValue];
     CGRect viewFrame = CGRectMake(0, 0,  UI_SCREEN_WIDTH,  self.contentScrollView.contentSize.height);
