@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:UI_STRING(@"savingNote")
+	<string>    UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:nil
                                message:nil
                               delegate:nil
                      cancelButtonTitle:nil
