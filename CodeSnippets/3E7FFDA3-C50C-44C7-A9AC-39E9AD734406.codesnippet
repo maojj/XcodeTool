@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>indicator</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UIAlertView * alertView = [[UIAlertView alloc] initWithTitle:UI_STRING(@"savingNote")
+                               message:nil
+                              delegate:nil
+                     cancelButtonTitle:nil
+                     otherButtonTitles:nil];
+    [alertView show];
+    UIActivityIndicatorView *aiv = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+    aiv.center = CGPointMake(alertView.bounds.size.width / 2, alertView.bounds.size.height - 40);
+    [aiv startAnimating];
+    [alertView addSubview:aiv];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3E7FFDA3-C50C-44C7-A9AC-39E9AD734406</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>indicatorView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
