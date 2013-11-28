@@ -3,27 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>alertviewinit</string>
+	<string>imv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-    if (buttonIndex == 0) {
-
-    }
-}</string>
+	<string>[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"&lt;#image name#&gt;"]]
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2A1FA279-0EE5-4DED-B22A-4C579C00B877</string>
+	<string>C8F8EA8D-8940-450F-90CB-FA229B0389CC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Create &amp; Initialize UIImageView with Named Image</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mjj- alertview delegate</string>
+	<string>ImageView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
