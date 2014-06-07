@@ -12,8 +12,8 @@
 	<string>    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
     NSString *cachePath = [paths objectAtIndex:0];
 
-    NSArray* paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    NSString* documentPath = [paths objectAtIndex:0];</string>
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentPath = [paths objectAtIndex:0];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>86679FB7-C41F-4D8C-8B93-4ACAA5CB96C2</string>
 	<key>IDECodeSnippetLanguage</key>
