@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>white</string>
+	<string>masonary</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIColor whiteColor]</string>
+	<string>    [&lt;#view#&gt; mas_makeConstraints:^(MASConstraintMaker *maker) {
+        &lt;#maker#&gt;
+    }];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>43B2936B-3467-41BA-8467-C23B74E2A4E0</string>
+	<string>F38E095D-197F-4FD8-AECF-DF042AFD8667</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>whitecolor</string>
+	<string>masonary</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

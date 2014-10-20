@@ -2,20 +2,22 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>white</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIColor whiteColor]</string>
+	<string>    self = [super init];
+    if (self) {
+        &lt;#statements#&gt;
+    }
+    return self;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>43B2936B-3467-41BA-8467-C23B74E2A4E0</string>
+	<string>9B97B85E-D14B-427D-9108-74EA54AC87BE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>whitecolor</string>
+	<string>custom init method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

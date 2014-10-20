@@ -3,19 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>white</string>
+	<string>YTK_Request_Delegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[UIColor whiteColor]</string>
+	<string>#pragma mark - request delete
+
+- (void)requestFailed:(YTKBaseRequest *)request {
+
+}
+
+- (void)requestFinished:(YTKBaseRequest *)request {
+
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>43B2936B-3467-41BA-8467-C23B74E2A4E0</string>
+	<string>04943E10-A17D-41C7-BF86-E862FD3C17D1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>whitecolor</string>
+	<string>YTK request delegate method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
