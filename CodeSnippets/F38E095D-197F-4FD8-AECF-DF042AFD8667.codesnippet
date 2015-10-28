@@ -9,8 +9,8 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    [&lt;#view#&gt; mas_makeConstraints:^(MASConstraintMaker *maker) {
-        &lt;#maker#&gt;
+	<string>    [&lt;#view#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+        &lt;#make#&gt;
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F38E095D-197F-4FD8-AECF-DF042AFD8667</string>
